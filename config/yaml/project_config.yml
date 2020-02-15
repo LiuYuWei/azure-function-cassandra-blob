@@ -1,0 +1,16 @@
+project:
+  path: '' #your project develope path
+
+cassandra:
+  username: 'cassandra'
+  password: 'cassandra'
+  host: ['192.168.33.10']
+  port: 32830
+  protocol: 3
+  wait_for_all_pools: True
+
+azure:
+  blob:
+    connection_string: ICanNotTellYou
+    container_name: ICanNotTellYou
+    account_name: ICanNotTellYou
